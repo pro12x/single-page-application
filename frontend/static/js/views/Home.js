@@ -1,8 +1,8 @@
 import AbstractView from "./AbstractView.js";
 
 export default class extends AbstractView {
-    constructor() {
-        super();
+    constructor(params) {
+        super(params);
         this.setTitle("My Sample");
     }
 
@@ -12,7 +12,7 @@ export default class extends AbstractView {
             <p style="text-align: center">This is a simple HTML template.</p>
             <p style="text-align: center">Feel free to modify it as per your needs.</p>
             <p style="text-align: center">Enjoy coding!</p>
-            <p style="text-align: center">For more information, visit the <a href="https://pro12x.github.io/folio" target="_blank">official website</a>.</p>
+            <p style="text-align: center">For more information, visit the <a href="https://pro12x.github.io/folio#contact" target="_blank">official website</a>.</p>
         `;
     }
 }

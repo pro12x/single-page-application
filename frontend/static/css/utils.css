@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url("../font/RobotoCondensed-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --font-family: "Roboto Condensed";
+    --color-primary: #0e2f44;
+    --color-secondary: #6e828e;
+    --color-text: #3e5869;
+    --color-border: #9eabb4;
+    --color-background: #e6eaec;
+
+    --error-color: #8b0404;
+    --error-border-color: #ffcccc;
+    --error-bg-color: #f8d7da;
+
+    --success-color: #4caf50;
+    --success-border-color: #d4edda;
+    --success-bg-color: #d4edda;
+}
